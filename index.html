@@ -21,7 +21,11 @@
             </div>
             <div class="row">
                 <div class="navbar-expand-lg bg-dark pt-2">
-                    <ul id="categoryElement" class="navbar-nav text-light">
+                    <ul id="categoryElement" class="navbar-nav">
+                       <li class="nav-item" >
+                           <a class="nav-link" onclick="about_clicked()" href="#"> About</a>
+                        </li>
+
 
                     </ul>
                 </div>
@@ -29,7 +33,12 @@
             <div class="col">
                 <div class="row p-4">
                     <div class="col text-left">
-                        <div class="row">
+                        <div id="about">
+                            <span>Select the category from the nav bar. </span>
+                            <span>contact me in <a href="https://www.linkedin.com/in/fenila-philip">linkedin</a></span>
+                        </div>
+                        <div id="nomen-class" class="row h3 text-center p-4">heading</div>
+                        <div id="quiz-area" class="row">
                             <ol>
                                 <li>
                                     <input class="form-check-input" type="radio" name="optradio1" value="option1">
@@ -59,7 +68,7 @@
                 </div>
                 <div class="row">
                     <div class="col text-center">
-                        <button id="submit" type="submit" class="btn-white btn-sm btn-outline-success btn-block">
+                        <button id="submit-button" type="submit" class="btn-white btn-sm btn-outline-success btn-block">
                             submit
                         </button>
                     </div>
