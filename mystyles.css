@@ -2,9 +2,17 @@
     background-color: darkgray;
     min-height: 1500px;
 }
-.nomen{
+#about{
+    min-height: 1500px;  
+}
+#nomen{
     color:brown;
+    padding: 10px;
+    font-size: 15pt;
 }
 #categoryElement{
     color:white;
+}
+.question{
+    padding:10px;
 }
